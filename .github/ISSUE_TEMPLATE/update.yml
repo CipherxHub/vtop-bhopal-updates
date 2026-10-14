@@ -1,0 +1,18 @@
+name: Update problem
+description: New version not showing, download or install failing
+labels: [update]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Current app version
+      placeholder: e.g. 1.5
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: e.g. no banner, download stuck at N%, installer error text.
+    validations:
+      required: true
