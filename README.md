@@ -21,3 +21,5 @@ Open an issue with:
 ## Privacy
 
 Credentials go only to `vtop.vitbhopal.ac.in` over the device's own connection and are never stored. No analytics, no tracking.
+
+Install counts (v2.0+): the app sends one anonymous ping per day (a random install ID plus the app version — no identity, no usage data). Turn it off anytime in More → Anonymous usage stats.
