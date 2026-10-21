@@ -27,7 +27,10 @@ VTOP can authenticate you. They are never sent to us, and we have no way to read
 | The app version | To see which versions are in use | Same |
 
 The install identifier is generated on your device, is not tied to you, and is not
-linked to your name,You can turn this off at any time in **More -> Anonymous usage stats**. With it off,
+linked to your name, registration number, email address, or any VTOP data. It is
+regenerated if you clear the app's data or reinstall.
+
+You can turn this off at any time in **More → Anonymous usage stats**. With it off,
 the app makes no request to us at all.
 
 The identifier and the version are kept in a database used only for that count. They
@@ -35,8 +38,7 @@ are never joined to your name, registration number, marks, or any other record, 
 the app sends nothing that identifies you. Because the identifier is random there is
 nothing to look up by name, so there is no per-person record to retrieve: switching
 the setting off stops collection immediately, and clearing the app's data or
-reinstalling mints a new identifier that cannot be linked to the previous one. turn this off at any time in **More → Anonymous usage stats**. With it off,
-the app makes no request to us at all.
+reinstalling mints a new identifier that cannot be linked to the previous one.
 
 ## What stays on your device
 
