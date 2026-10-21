@@ -8,9 +8,10 @@ what the app does with data.
 
 ## The short version
 
-We do not store your data on any server. There is no backend, no account, and no
-database. The only thing that ever reaches us is an anonymous install identifier and
-the app version, used to count installs.
+Your VTOP data — attendance, marks, timetable, profile, and your password — stays on
+your phone. We have no account for you, and no server of ours holds any of it. The one
+thing we do keep is an anonymous install identifier and the app version, stored so we
+can count how many installs are active. You can switch that off.
 
 ## What the app sends
 
@@ -26,10 +27,15 @@ VTOP can authenticate you. They are never sent to us, and we have no way to read
 | The app version | To see which versions are in use | Same |
 
 The install identifier is generated on your device, is not tied to you, and is not
-linked to your name, registration number, email address, or any VTOP data. It is
-regenerated if you clear the app's data or reinstall.
+linked to your name,You can turn this off at any time in **More -> Anonymous usage stats**. With it off,
+the app makes no request to us at all.
 
-You can turn this off at any time in **More → Anonymous usage stats**. With it off,
+The identifier and the version are kept in a database used only for that count. They
+are never joined to your name, registration number, marks, or any other record, and
+the app sends nothing that identifies you. Because the identifier is random there is
+nothing to look up by name, so there is no per-person record to retrieve: switching
+the setting off stops collection immediately, and clearing the app's data or
+reinstalling mints a new identifier that cannot be linked to the previous one. turn this off at any time in **More → Anonymous usage stats**. With it off,
 the app makes no request to us at all.
 
 ## What stays on your device
