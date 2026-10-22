@@ -55,9 +55,13 @@ reinstalling mints a new identifier that cannot be linked to the previous one.
 - **Your VTOP password**, if you turn on *Biometric unlock*. It is stored in an
   Android encrypted vault (AES-256, keys held in the Android keystore) on this
   device only, and it never leaves the device.
-- **Cached VTOP records** — attendance, marks, timetable, and profile — so the app
-  opens instantly. These are deleted when you log out or tap **Forget saved login**,
-  and they are wiped from the app's storage when you uninstall.
+- **Cached VTOP records** — attendance (including the per-course breakdown), marks,
+  grades, timetable, exams, fees, calendar days, and your profile — so the app opens
+  instantly. These are deleted when you log out or tap **Forget saved login**, and
+  they are wiped from the app's storage when you uninstall.
+- **Files you save** — if you tap to save a syllabus or any other PDF, it is written
+  to your device's Downloads folder, outside the app. It stays there until you delete
+  it, and the app does not read it back.
 - **Your chat history** (Ask VTOP), kept on the phone under your registration number so
   you can reopen past questions. Delete a chat, or **Clear all chats**, from the Ask
   screen's History view.
