@@ -8,10 +8,11 @@ what the app does with data.
 
 ## The short version
 
-Your VTOP data — attendance, marks, timetable, profile, and your password — stays on
-your phone. We have no account for you, and no server of ours holds any of it. The one
-thing we do keep is an anonymous install identifier and the app version, stored so we
-can count how many installs are active. You can switch that off.
+Your VTOP data — attendance, marks, timetable, profile — stays on your phone. Your
+password is sent only to VTOP when you sign in, and is stored nowhere unless you
+switch on biometric unlock. We have no account for you, and no server of ours holds
+any of it. The one thing we do keep is an anonymous install identifier and the app
+version, stored so we can count how many installs are active. You can switch that off.
 
 ## What the app sends
 
@@ -61,7 +62,8 @@ reinstalling mints a new identifier that cannot be linked to the previous one.
   they are wiped from the app's storage when you uninstall.
 - **Files you save** — if you tap to save a syllabus or any other PDF, it is written
   to your device's Downloads folder, outside the app. It stays there until you delete
-  it, and the app does not read it back.
+  it, and the app does not read it back. (On Android 7–9 it goes to the app's own
+  Documents folder instead, which uninstalling removes.)
 - **Your chat history** (Ask VTOP), kept on the phone under your registration number so
   you can reopen past questions. Delete a chat, or **Clear all chats**, from the Ask
   screen's History view.
