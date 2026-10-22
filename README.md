@@ -16,6 +16,19 @@ notifies you in-app when a new version is out and can download + install it dire
 > Allowed: install and use the app on your own device.
 > Not allowed: copying, modifying, redistributing, or re-uploading the APK or any part of the app. The source code is proprietary and is not published here.
 
+## Screens
+
+| Today | Attendance | Timetable | Marks |
+|---|---|---|---|
+| ![Today](screenshots/today.png) | ![Attendance](screenshots/attendance.png) | ![Timetable](screenshots/timetable.png) | ![Marks](screenshots/marks.png) |
+
+| Grades | Exams | Fees | Ask VTOP |
+|---|---|---|---|
+| ![Grades](screenshots/grades.png) | ![Exams](screenshots/exams.png) | ![Fees](screenshots/fees.png) | ![Ask](screenshots/ask.png) |
+
+These are the app's built-in demo account (`99DEM0000`) — no real student's
+record is shown anywhere on this page.
+
 ## Two channels, one app
 
 The Play build and the APK are the same app from the same source, but Android treats
