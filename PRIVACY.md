@@ -1,6 +1,6 @@
 # Privacy Policy — V Bhopal
 
-**Last updated: 21 October 2026**
+**Last updated: 22 October 2026**
 
 V Bhopal is an independent, unofficial Android client for the VTOP portal operated by
 VIT Bhopal. It is not made, endorsed, or supported by VIT Bhopal. This policy explains
@@ -15,9 +15,19 @@ can count how many installs are active. You can switch that off.
 
 ## What the app sends
 
-The app talks to **one** kind of server: VIT Bhopal's own VTOP portal, using the
-credentials you type. Your registration number and password are sent to VTOP so that
-VTOP can authenticate you. They are never sent to us, and we have no way to read them.
+Three kinds of request leave your phone. Only the first carries anything about you.
+
+1. **VTOP** (`vtop.vitbhopal.ac.in`) — your registration number and password, so VTOP
+   can authenticate you, and then the requests that load your attendance, marks,
+   timetable, exams, fees, leave and profile. This is the only place your credentials
+   ever go. They are never sent to us, and we have no way to read them.
+2. **Our install counter** — one anonymous ping a day, described under *What we
+   collect* below. Switchable off.
+3. **GitHub's public releases API** — "is there a newer version than the one I am
+   running?". The request carries the app version and nothing else about you; GitHub
+   sees it like any other web request, and we receive nothing from it. On the Play
+   build, Google Play performs updates instead and this check is not used to download
+   anything. No request leaves the app before you accept the first-launch agreement.
 
 ## What we collect
 
@@ -45,9 +55,16 @@ reinstalling mints a new identifier that cannot be linked to the previous one.
 - **Your VTOP password**, if you turn on *Biometric unlock*. It is stored in an
   Android encrypted vault (AES-256, keys held in the Android keystore) on this
   device only, and it never leaves the device.
-- **Cached VTOP records** — attendance, marks, timetable, and profile — so the app
-  opens instantly. These are deleted when you log out or tap **Forget saved login**,
-  and they are wiped from the app's storage when you uninstall.
+- **Cached VTOP records** — attendance (including the per-course breakdown), marks,
+  grades, timetable, exams, fees, calendar days, and your profile — so the app opens
+  instantly. These are deleted when you log out or tap **Forget saved login**, and
+  they are wiped from the app's storage when you uninstall.
+- **Files you save** — if you tap to save a syllabus or any other PDF, it is written
+  to your device's Downloads folder, outside the app. It stays there until you delete
+  it, and the app does not read it back.
+- **Your chat history** (Ask VTOP), kept on the phone under your registration number so
+  you can reopen past questions. Delete a chat, or **Clear all chats**, from the Ask
+  screen's History view.
 - **Your VTOP session cookie**, held by Android's own cookie store.
 
 None of this is transmitted to us or to anyone else.
@@ -56,6 +73,9 @@ None of this is transmitted to us or to anyone else.
 
 - **VIT Bhopal (VTOP)** — the portal this app is a client for. Your credentials and
   session go there, and their privacy policy governs that data.
+- **GitHub** — the app asks GitHub's public API whether a newer release exists, and
+  downloads release notes so the "what's new" sheet works offline. GitHub sees that
+  request; it carries nothing about your VTOP account.
 - **Google Play** — if you installed from Google Play, Google handles the install,
   the app listing, and its own diagnostics.
 
