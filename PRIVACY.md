@@ -1,6 +1,6 @@
 # Privacy Policy — V Bhopal
 
-**Last updated: 22 October 2026**
+**Last updated: 23 October 2026**
 
 V Bhopal is an independent, unofficial Android client for the VTOP portal operated by
 VIT Bhopal. It is not made, endorsed, or supported by VIT Bhopal. This policy explains
