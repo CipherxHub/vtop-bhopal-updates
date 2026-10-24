@@ -1,6 +1,6 @@
 # V Bhopal — downloads & issue tracker
 
-An unofficial Android client for VIT Bhopal's VTOP portal — attendance, timetable, marks, exams, calendar, fees, hostel leave, and profile in a clean native-feeling app.
+An unofficial Android client for VIT Bhopal's VTOP portal — attendance, timetable, marks, exams, calendar, fees, hostel leave, spotlight announcements, and profile in a clean native-feeling app.
 
 > **Unofficial.** V Bhopal is an independent third-party client. It is not made, endorsed, or supported by VIT Bhopal, and it is not affiliated with them in any way. You are responsible for complying with VIT Bhopal's terms of use.
 
