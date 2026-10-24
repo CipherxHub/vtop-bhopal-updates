@@ -29,6 +29,15 @@ notifies you in-app when a new version is out and can download + install it dire
 These are the app's built-in demo account (`99DEM0000`) — no real student's
 record is shown anywhere on this page.
 
+## What's new in v2.4
+
+- **Hostel Leave (Production)**: Out of beta with holiday & calendar-aware overlap previews (omits holidays from missed classes), substituted day-order support (working Saturdays), and formatted empty states.
+- **Grades & Curriculum Progress**: Pending Courses now displays exact degree credits remaining per curriculum category (`N credits left · X/Y earned`) alongside overall degree requirements.
+- **Spotlight Announcements**: Live VTOP circulars and announcements board on Home with external document links and publication dates.
+- **App-wide Skeleton Shimmers**: Fluid shimmer cards across all screens and bottom sheets, replacing legacy circular loaders.
+- **Instant Launch & Clean Auth**: 20-minute session TTL eliminates ghost splash loops; sign-in enters the dashboard immediately with zero artificial delay.
+- **Micro-interactions**: Smooth 160ms tab cross-fades, bottom sheet drag handles, boxed calendar/fee elements, and tactile haptic feedback.
+
 ## Two channels, one app
 
 The Play build and the APK are the same app from the same source, but Android treats
